@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_trend"
+        android:icon="@drawable/ic_trend"
+        android:title="Trend Fashion" />
+
+    <item
+        android:id="@+id/nav_image"
+        android:icon="@drawable/ic_image"
+        android:title="Prediksi Gambar" />
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="biru">#227CC4</color>
+
+    <!-- Primary Colors -->
+    <color name="primary_blue">#3498DB</color>
+    <color name="primary_blue_dark">#2980B9</color>
+    <color name="primary_blue_light">#5DADE2</color>
+
+    <!-- Secondary Colors -->
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_purple">#9C27B0</color>
+
+    <color name="colorPrimary">#1E90FF</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#4CAF50</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">#1E90FF</color>
+    <color name="bottom_nav_unselected">#888888</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_card">#FAFBFC</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_hint">#ADB5BD</color>
+
+    <!-- Status Colors -->
+    <color name="success">#28A745</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#DC3545</color>
+    <color name="info">#17A2B8</color>
+</resources>
