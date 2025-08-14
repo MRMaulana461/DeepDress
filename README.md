@@ -20,20 +20,4 @@ Endpoint health-check untuk memastikan API berjalan.
 
 🏗️ Arsitektur Sistem
 Struktur direktori proyek:
-
-Fashion-AI/
-│
-├── flask/               # Backend Flask + Model CNN & LSTM
-│   ├── app.py            # Entry point Flask API
-│   ├── requirements.txt  # Dependencies backend
-│   ├── models/           # Folder model
-│   │   ├── cnn_model.h5  # Model CNN
-│   │   └── lstm_model.h5 # Model LSTM
-│   └── ...
-│
-├── MyApplication/        # Proyek Android Studio (Kotlin)
-│   ├── app/              # Source code Android
-│   ├── build.gradle
-│   └── ...
-│
-└── README.md             # Dokumentasi proyek
+<img width="375" height="275" alt="image" src="https://github.com/user-attachments/assets/59940850-9fae-43f6-be99-69099c1532b7" />
