@@ -1,34 +1,39 @@
-# 📈 LSTM Time Series Prediction App
+📈 LSTM Time Series Prediction App
+Aplikasi ini memiliki dua komponen utama:
 
-Aplikasi Android untuk memprediksi data time series hingga 60 hari ke depan menggunakan model **LSTM** yang di-deploy di backend **Flask API**.  
-Frontend Android dibangun menggunakan **Kotlin** dan menampilkan hasil prediksi dalam bentuk **line chart** menggunakan **MPAndroidChart**.
+Backend (folder flask) — Flask API yang melakukan deployment model LSTM untuk prediksi tren dan model CNN untuk deteksi fashion dari gambar.
 
----
+Mobile App (folder MyApplication) — Aplikasi Android berbasis Kotlin yang menampilkan hasil prediksi dan deteksi secara interaktif.
 
-## 🚀 Fitur Utama
-- Prediksi maksimal 60 hari ke depan berdasarkan data historis.
-- Backend Flask dengan model LSTM (`world_best_model2.h5`).
-- Visualisasi hasil prediksi dalam grafik.
-- Input jumlah hari (`days`) langsung dari aplikasi Android.
-- Validasi input pada backend.
-- Endpoint health-check untuk memastikan API berjalan.
+🚀 Fitur Utama
+Prediksi tren hingga 60 hari ke depan menggunakan model LSTM.
 
----
+Deteksi fashion dari gambar menggunakan model CNN.
 
-## 🏗️ Arsitektur Sistem
+Visualisasi hasil prediksi dalam bentuk line chart menggunakan MPAndroidChart.
+
+Input jumlah hari (days) langsung dari aplikasi Android.
+
+Validasi input di backend.
+
+Endpoint health-check untuk memastikan API berjalan.
+
+🏗️ Arsitektur Sistem
+Struktur direktori proyek:
+
 Fashion-AI/
 │
-├── flask/            -> Backend Flask + CNN & LSTM
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── models/
-│   │   ├── cnn_model.h5
-│   │   └── lstm_model.h5
+├── flask/               # Backend Flask + Model CNN & LSTM
+│   ├── app.py            # Entry point Flask API
+│   ├── requirements.txt  # Dependencies backend
+│   ├── models/           # Folder model
+│   │   ├── cnn_model.h5  # Model CNN
+│   │   └── lstm_model.h5 # Model LSTM
 │   └── ...
 │
-├── MyApplication/    -> Proyek Android Studio (Kotlin)
-│   ├── app/
+├── MyApplication/        # Proyek Android Studio (Kotlin)
+│   ├── app/              # Source code Android
 │   ├── build.gradle
 │   └── ...
 │
-└── README.md         -> Dokumentasi proyek
+└── README.md             # Dokumentasi proyek
